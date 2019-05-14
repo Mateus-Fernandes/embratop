@@ -1,0 +1,210 @@
+
+.assistencia_bread{
+    background-position: 79%;
+    background-size: 134%;
+}
+.breadcrumb_page{
+    .assistencia_ico_bread{
+        background-position: -67px -272px;
+        width: 23px;
+        height: 22px;
+        margin-right: 13px;
+    }
+}
+
+.titulo_pagina_bg{
+    background: url(../images/assistencia/bg_assitencia.jpg);
+    height: 209px;
+    h1{
+        color: #FFF;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+}
+.symbol_count {
+    font-weight: 900;
+    font-size: 72px;
+    color: #f5821f;
+    margin-right: 15px;
+}
+
+.c_especializada{
+    width: 65px;
+    height: 94px;
+    background-position: -273px -215px;
+}
+.s_24h{
+    width: 79px;
+    height: 86px;
+    background-position: -348px -215px;
+}
+
+
+/* Duvidas */
+section.perguntas_respostas {
+    padding-top: 60px;
+    background: #f8f7f7;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        color: #f5821f;
+        margin-bottom: 0px;
+    }
+}
+
+.duvidas h4 a {
+	color: #231f20;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.duvidas h4 {
+    background: #f8f7f7;
+    border-radius: 25px;
+    padding: 15px 14px 14px 25px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    border: 1px solid #d0d0d0;
+    font-weight: bold;
+}
+
+.iconeDuvidas i {
+    padding: 16px 18px;
+    background: #f5821f;
+    border-radius: 100%;
+    margin-left: 3px;
+    color: #FFF;
+}
+
+.iconeDuvidas a {
+	color: #FFF;
+}
+
+.panel-body {
+    color: #FFF;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 26px 36px;
+    margin-bottom: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    line-height: 24px;
+    background: #231f20;
+    margin-top: 2px;
+}
+.duvidas{
+    padding-top: 75px;
+    padding-bottom: 78px;
+    
+}
+.conteudoDuvidas{
+    padding-top: 0px;
+}
+.icone_chevron {
+    width: 47px;
+    height: 47px;
+    background: #f5821f;
+    margin-left: 5px;
+    border-radius: 50%;
+    position: relative;
+    transition: .2s;
+}
+a.accordion-toggle[aria-expanded="true"]{
+    .up{
+        background: url(../images/sprite.png);
+        width: 20px;
+        height: 10px;
+        position: absolute;
+        top: 54%;
+        transform: translate(-50%, -50%);
+        background-position: -16px -177px;
+        left: 50%;
+    }
+    .icone_chevron{
+        background: #231f20;
+    }
+}
+a.accordion-toggle[aria-expanded="false"], a.accordion-toggle{
+    .up{
+        background: url(../images/sprite.png);
+        width: 20px;
+        height: 10px;
+        position: absolute;
+        top: 54%;
+        transform: translate(-50%, -50%);
+        background-position: 1px -176px;
+        left: 50%;
+    }
+
+}
+
+/* Entre em contato */
+.formulario_entreemcontato{
+    font-size: 14px;
+    padding-top: 64px;
+    padding-bottom: 44px;
+    padding-left: 67px;
+    padding-right: 67px;
+    border-radius: 15px;
+    box-shadow: -1px -1px 9px 7px #00000014;
+    .btn_round.btn_laranja{
+        margin-bottom: 0;
+        margin-top: 11px;
+        font-size: 13px;
+        padding: 7px 28px;
+    }
+    input {
+    margin-bottom: 10px !important;
+    }
+}
+.cliente_radio{
+    height: 45px;
+}
+.entre_emcontato{
+    padding-top: 46px;
+    padding-bottom: 73px;
+}
+
+.slider_fotos{
+    padding-bottom: 43px;
+    .slick-list.draggable {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .slick-slide{
+        margin: 0;
+    }
+    .slick-next {
+        right: 70px;
+        opacity: 1;
+        z-index: 9;
+        width: 26px;
+        height: 41px;
+        background: url(../images/sprite.png);
+        background-position: -244px -221px;
+        &::before{
+            content: '';
+            display: none;
+        }                
+    }
+    .slick-prev {
+        left: 70px;
+        opacity: 1;
+        z-index: 9;
+        width: 26px;
+        height: 41px;
+        background: url(../images/sprite.png);
+        background-position: -214px -221px;         
+        &::before{
+            content: '';
+            display: none;
+        }        
+    }        
+    .thumb_slider{
+        .slick-slide{
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+    }
+}

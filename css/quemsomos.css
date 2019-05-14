@@ -1,0 +1,93 @@
+.imagem_50 { background: url(../images/quemsomos/quemsomos_01.jpg); width: 50%; height: 100%; top: 0; right: 0; position: absolute; }
+
+.secao_01_quemsomos { position: relative; }
+
+.quemsomos_content { padding-top: 0; }
+
+.quemsomos_content h1 { margin-top: 40px; margin-bottom: 17px; }
+
+.css_quem { background: #f8f7f7; /* .aparecer .linhaHover { opacity: 1; } */ }
+
+.css_quem .ano-y { font-size: 20px; font-weight: lighter; text-align: center; background: #231f20; color: #FFF; border-radius: 100%; display: flex; height: 25px; width: 25px; position: relative; }
+
+.css_quem .ano-y span { color: #231f20; top: 100%; position: absolute; left: 50%; transform: translateX(-50%); font-weight: bold; font-size: 24px; margin-top: 20px; background: #f8f7f7; }
+
+.css_quem .slick-active:nth-of-type(4) .linhaHover { margin-left: -160px; }
+
+.css_quem .slick-active:nth-of-type(5) .linhaHover { margin-left: -256px; }
+
+.css_quem .slick-active:nth-of-type(6) .linhaHover { margin-left: -407px; }
+
+.css_quem .slick-track .slick-slide:nth-of-type(even) .ano-y { font-size: 18px; background: #f5821f; height: 40px; width: 40px; }
+
+.css_quem .slick-track .slick-slide:nth-of-type(even) .ano-y span { margin-top: 12px; }
+
+.css_quem .forcaraparecer { display: block !important; }
+
+.css_quem .ano { padding-left: 27px; padding-top: 54px; padding-right: 27px; }
+
+.css_quem .slick-track .slick-slide:nth-of-type(even) .ano { padding-top: 47px; padding-left: 36px; padding-right: 36px; }
+
+.css_quem .linha { position: relative; height: 9rem; }
+
+.css_quem .linha .slick-list.draggable { z-index: 10; }
+
+.css_quem .linha:before { content: ''; width: 100%; height: 3px; background: #231f20; top: 46%; position: absolute; opacity: 1; }
+
+.css_quem .comecoLinha { position: relative; }
+
+.css_quem .linhaHover { width: 677px; margin-top: 64px; top: 100%; margin-left: -25px; z-index: 20; display: none; }
+
+.css_quem .linhafina:before { content: ''; width: 3px; height: 90px; background: #231f20; top: 17%; position: absolute; margin-left: 39px; z-index: -1; opacity: 1; }
+
+.css_quem .linhafina:nth-of-type(even):before { content: ''; width: 3px; height: 80px; background: #231f20; top: 17%; position: absolute; margin-left: 56px; z-index: -1; opacity: 1; }
+
+.css_quem .slick-slide:nth-child(n+7):nth-child(-n+15) .linhaHover { margin-left: -530px; }
+
+.css_quem .conteudoLinha { background: transparent; display: flex; }
+
+.css_quem .anoLinha { font-weight: normal; font-size: 12px; padding-bottom: 7px; color: #707070; }
+
+.css_quem .conteudoLinha h4 { font-weight: bold; font-size: 18px; color: var(--azulDark); padding-bottom: 17px; }
+
+.css_quem .conteudoLinha p { font-size: 12px; }
+
+.css_quem .slick-list { position: relative; display: block; margin: 0; padding: 0; padding-left: 90px; padding-right: 90px; }
+
+.css_quem .slick-slide { opacity: 0; }
+
+.css_quem .slick-active { opacity: 1; }
+
+.css_quem .tempo { background: #f9f7fa; }
+
+.css_quem .imagem_linha_tempo { border-radius: 20px; overflow: hidden; min-width: 269px; }
+
+.css_quem .texto_linha_tempo { background: #FFF; margin-left: 0px; border-radius: 20px; padding-left: 46px; padding-top: 52px; padding-right: 46px; font-size: 14px; box-shadow: 1px 1px 6px 3px #00000024; }
+
+.css_quem .texto_linha_tempo h2 { color: #f5821f; font-weight: bold; font-size: 24px; margin-bottom: 18px; }
+
+.css_quem .texto_linha_tempo p { color: #231f20; font-size: 14px; line-height: 24px; }
+
+.missao_visao_items { padding-top: 144px; padding-bottom: 60px; }
+
+.missao_visao_items .slick-list.draggable { z-index: 1; }
+
+.missao_visao_items .slick-slide { margin-right: 33px; margin-left: 33px; }
+
+.missao_visao_items .item_encontra { height: 420px; padding: 23px; padding-top: 54px; padding-bottom: 46px; }
+
+.missao_visao_items .item_encontra p { font-size: 14px; line-height: 24px; }
+
+.missao_visao_items .item_encontra h4 { font-size: 36px; margin-bottom: 20px; margin-top: 25px; }
+
+.missao_visao_items .item_encontra:hover p { color: #FFF; }
+
+.missao_visao_items .item_encontra .missao_ico { width: 90px; height: 92px; background-position: -429px -205px; }
+
+.missao_visao_items .item_encontra .valores_ico { width: 65px; height: 94px; background-position: -273px -215px; }
+
+.missao_visao_items .item_encontra .visao_ico { width: 117px; height: 58px; background-position: -524px -229px; }
+
+.missao_visao_items .icone_block { min-height: 75px; display: flex; align-items: center; }
+
+.video_quemsomos { background: #f8f7f7; }
