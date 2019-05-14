@@ -1112,3 +1112,31 @@ p.subtitulo_pagina{
       .custom-option.selection {
          background: #f9f7fa;
       }
+
+// Entre em contato
+.entre_emcontato{
+    padding-top: 46px;
+    padding-bottom: 73px;
+}
+/* Entre em contato */
+.formulario_entreemcontato{
+    font-size: 14px;
+    padding-top: 64px;
+    padding-bottom: 44px;
+    padding-left: 67px;
+    padding-right: 67px;
+    border-radius: 15px;
+    box-shadow: -1px -1px 9px 7px #00000014;
+    .btn_round.btn_laranja{
+        margin-bottom: 0;
+        margin-top: 11px;
+        font-size: 13px;
+        padding: 7px 28px;
+    }
+    input {
+    margin-bottom: 10px !important;
+    }
+}
+.cliente_radio{
+    height: 45px;
+}

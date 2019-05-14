@@ -1,0 +1,49 @@
+.produtos_page_interna { padding-top: 36px; }
+
+.interna_produtos_bread { background-position: 88%; background-size: 134%; }
+
+.imagem_principal_produto { padding: 24px; border-radius: 25px; border: 1px solid #d4d4d4; text-align: center; }
+
+.imagem_principal_produto .slick-slide { width: auto !important; }
+
+.imagem_principal_produto .slick-track { position: relative; top: 0; left: 0; display: flex; margin-left: auto; margin-right: auto; align-items: center; justify-content: center; }
+
+.thumb_produto .cada_thumb_produto { display: flex !important; justify-content: center; text-align: center; padding: 9px; border: 1px solid #d4d4d4; border-radius: 20px; }
+
+.thumb_produto .slick-slide { margin-right: 5px; margin-left: 5px; }
+
+.produto_informacoes .padding-title { margin-bottom: 8px; }
+
+.cada_ico_produto { margin-right: 10px; }
+
+.cada_ico_produto:last-child { margin-right: 0; }
+
+.facebook_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -504px -36px; }
+
+.youtube_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -571px -36px; }
+
+.whats_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -537px -36px; }
+
+.google_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -605px -36px; }
+
+.produto_descricao_page p { font-size: 14px; line-height: 24px; color: #231f20; }
+
+.produto_descricao_page h2 { font-size: 30px; color: #231f20; font-weight: bold; margin-bottom: 10px; }
+
+.produto_descricao_page a.botao_veja_preco { text-transform: uppercase; padding: 15px 42px; text-align: center; background: #231f20; border-radius: 25px; color: #FFF; font-weight: bold; font-size: 16px; text-decoration: none; }
+
+.produto_descricao_page a.botao_carrinho { padding: 11px 35px; background: #f6821f; border-radius: 25px; color: #FFF; text-transform: uppercase; font-size: 16px; font-weight: bold; margin-top: 11px; }
+
+.produto_descricao_page .icone_carrinho_p { background: url(../images/sprite.png); width: 30px; height: 28px; background-position: -498px -71px; margin-left: 11px; }
+
+.produto_descricao_page a.botao_download_ficha { padding: 11px 35px; color: #231f20; margin-top: 11px; font-size: 16px; font-weight: bold; }
+
+.produto_descricao_page .icone_download_p { background: url(../images/sprite.png); width: 30px; height: 26px; background-position: -537px -73px; margin-left: 11px; }
+
+.entre_contato_produto { padding-top: 39px; padding-left: 56px; padding-right: 56px; padding-bottom: 39px; border-radius: 10px; border: 1px solid #d4d4d4; margin-top: 36px; }
+
+.entre_contato_produto h2 { font-size: 30px; font-weight: bold; color: #f5821f; margin-bottom: 26px; }
+
+.entre_contato_produto button { background: #f5821f; color: #FFF; font-size: 17px; font-weight: bold; width: 100%; text-align: center; border: none; padding: 7px; border-radius: 25px; }
+
+.bg_branco_produtos { background: #FFF; padding-bottom: 20px; }

@@ -134,6 +134,22 @@ $('.encontra_items').slick({
     arrows: false,
     focusOnSelect: true
   });
+
+  $('.imagem_principal_produto').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    fade: true,
+    asNavFor: '.thumb_produto'
+  });
+  $('.thumb_produto').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.imagem_principal_produto',
+    dots: false,
+    arrows: false,
+    focusOnSelect: true
+  });  
   
   $('.linha').slick({
     dots: false,
@@ -222,3 +238,16 @@ $('.encontra_items').slick({
     $(this).parents(".custom-select2").find(".custom-select2-trigger").text( '' + $(this).text());
   });
   
+  // Quantidade
+  $('.quantity-up').on('click', function(){
+    var elem = $(this).closest('.quantity').find('.quantity-val');
+    var val = Number(elem.val())+1;
+    elem.val(val);
+  });
+  
+  $('.quantity-down').on('click', function(){
+    var elem = $(this).closest('.quantity').find('.quantity-val');
+    var val = Number(elem.val())-1;
+    if (val < 1) val = 1;
+    elem.val(val);
+  });
