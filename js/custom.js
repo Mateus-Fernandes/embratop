@@ -58,6 +58,36 @@ $('.encontra_items').slick({
     ]
   });
 
+  $('.servicos_item').slick({
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });  
+
 
   $('.produto_items').slick({
     dots: false,
@@ -251,3 +281,23 @@ $('.encontra_items').slick({
     if (val < 1) val = 1;
     elem.val(val);
   });
+
+  $(".hamburger").click(function()
+{
+    $(".navigation").toggleClass("open_menu");
+});
+
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+
+  $('li.nav-item a').removeClass('active');
+  $(this).addClass('active');
+  if( target.length ) {
+      
+      event.preventDefault();
+      var top = (target.offset().top) - 140;
+      $('html, body').stop().animate({
+          scrollTop: top
+      }, 1000);
+  }
+});

@@ -11,18 +11,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>EMBRATOP - Contato</title>
   </head>
   <body>
     <header class="topo">
         <div class="linha_ciza"></div>
-        <div class="container d-flex texto_top px-md-0 px-3">
+        <div class="container d-flex texto_top px-md-0 px-3 flex-md-row flex-column-reverse">
             <div class="logo">
                 <img src="images/logo.png" alt="">
             </div>
             <div class="right_nav">
                 <div class="top_nav d-flex flex-wrap align-items-center">
-                    <div class="central_atendimento"><span>CENTRAL DE ATENDIMENTO:</span> (41) 3015-3040 / (41) 99898-3040</div>
+                    <div class="central_atendimento d-lg-block d-none"><span>CENTRAL DE ATENDIMENTO:</span> (41) 3015-3040 / (41) 99898-3040</div>
                     <div class="links_top d-flex align-items-center">
                         <a href="#" class="entre">Entre ou</a>
                         <a href="#" class="btn btn_round btn_cadastro">Cadastre-se</a>
@@ -31,8 +32,8 @@
                     </div>
                 </div>
                 <div class="bottom_nav">
-                    <nav class="navbar navbar-expand-lg navbar-light px-0">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <nav class="navbar navbar-expand-lg navbar-light px-0 d-lg-block d-none">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
@@ -71,6 +72,23 @@
                             </ul>
                         </div>
                     </nav>
+                    <nav class="navigation d-lg-none d-block position-relative">
+                        <div class="hamburger">
+                            <span class="icone_barras d-block"></span>
+                        </div>
+                        <div class="mobile_menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Quem Somos</a></li>
+                            <li><a href="#">Produto</a></li>
+                            <li><a href="#">Orçamento</a></li>
+                            <li><a href="#">Suporte</a></li>
+                            <li><a href="#">Assistência Técnica</a></li>
+                            <li><a href="#">Área Restrita</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>                      
+                        </div>
+                    </nav>                    
                 </div>
             </div>
         </div>

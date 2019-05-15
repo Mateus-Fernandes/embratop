@@ -17,28 +17,7 @@ section.perguntas_respostas { padding-top: 60px; background: #f8f7f7; }
 
 section.perguntas_respostas h2 { font-size: 50px; font-weight: bold; color: #f5821f; margin-bottom: 0px; }
 
-.duvidas h4 a { color: #231f20; font-size: 14px; font-weight: bold; }
-
-.duvidas h4 { background: #f8f7f7; border-radius: 25px; padding: 15px 14px 14px 25px; margin-bottom: 12px; font-size: 14px; border: 1px solid #d0d0d0; font-weight: bold; }
-
-.iconeDuvidas i { padding: 16px 18px; background: #f5821f; border-radius: 100%; margin-left: 3px; color: #FFF; }
-
-.iconeDuvidas a { color: #FFF; }
-
-.panel-body { color: #FFF; font-weight: normal; font-size: 13px; padding: 26px 36px; margin-bottom: 20px; border: 1px solid #ebebeb; border-radius: 50px; line-height: 24px; background: #231f20; margin-top: 2px; }
-
-.duvidas { padding-top: 75px; padding-bottom: 78px; }
-
-.conteudoDuvidas { padding-top: 0px; }
-
-.icone_chevron { width: 47px; height: 47px; background: #f5821f; margin-left: 5px; border-radius: 50%; position: relative; transition: .2s; }
-
-a.accordion-toggle[aria-expanded="true"] .up { background: url(../images/sprite.png); width: 20px; height: 10px; position: absolute; top: 54%; transform: translate(-50%, -50%); background-position: -16px -177px; left: 50%; }
-
-a.accordion-toggle[aria-expanded="true"] .icone_chevron { background: #231f20; }
-
-a.accordion-toggle[aria-expanded="false"] .up, a.accordion-toggle .up { background: url(../images/sprite.png); width: 20px; height: 10px; position: absolute; top: 54%; transform: translate(-50%, -50%); background-position: 1px -176px; left: 50%; }
-
+/*Slider fotos*/
 .slider_fotos { padding-bottom: 43px; }
 
 .slider_fotos .slick-list.draggable { padding-top: 0; padding-bottom: 15px; }
