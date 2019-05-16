@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/suporte.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -32,7 +33,7 @@
                     </div>
                 </div>
                 <div class="bottom_nav">
-                    <nav class="navbar navbar-expand-lg navbar-light px-0 d-lg-block d-none">
+                    <nav class="navbar navbar-expand-lg navbar-light px-0 d-lg-block d-none fill">
                         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -93,7 +94,7 @@
             </div>
         </div>
     </header>
-    <div class="breadcrumb_page">
+    <div class="breadcrumb_page" data-aos="fade-down">
         <div class="container px-lg-0 px-3">
             <div class="d-flex justify-content-between">
                 <div class="titulo_bread d-flex"><div class="icone_breadcrumb suporte_bread_ico"></div> Suporte</div>
@@ -103,11 +104,11 @@
     </div>
     <div class="conteudo_pagina_interna">
         <div class="container px-lg-0 px-3">
-            <h1>Perguntas e Respostas</h1>
-            <p class="subtitulo_pagina">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, </p>
+            <h1 data-aos="fade-up">Perguntas e Respostas</h1>
+            <p class="subtitulo_pagina" data-aos="fade-down">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, </p>
                 <div class="conteudoDuvidas duvidas px-1 col-lg-12">
                     <div class="panel-group" id="accordion"> <!-- Accordion do Bootstrap 4 -->
-                        <div class="panel panel-default aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-delay="300">
                             <div class="panel-heading d-flex bd-highlight">
                             <h4 class="panel-title w-100">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
@@ -127,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-delay="400">
                             <div class="panel-heading d-flex bd-highlight">
                             <h4 class="panel-title w-100">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
@@ -143,7 +144,7 @@
                                         Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-delay="500">
                             <div class="panel-heading d-flex bd-highlight">
                             <h4 class="panel-title w-100">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
@@ -159,7 +160,7 @@
                                         Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-delay="600">
                             <div class="panel-heading d-flex bd-highlight">
                             <h4 class="panel-title w-100">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
@@ -182,10 +183,10 @@
     <section class="produtos_videos video_suportebg">
         <div class="container px-lg-0 px-3">
             <div class="titulo_secao text-center">
-                <h2>Vídeos</h2>
-                <h3>Nossos produtos em vídeos</h3>
+                <h2 data-aos="fade-down">Vídeos</h2>
+                <h3 data-aos="fade-down">Nossos produtos em vídeos</h3>
             </div>
-            <div class="videoIncorporado pb-2 text-center">
+            <div class="videoIncorporado pb-2 text-center" data-aos="fade-up">
                 <div class="videoAqui">
                     <iframe src="https://player.vimeo.com/video/70591644?title=0&byline=0&portrait=0" width="100%" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -193,16 +194,16 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3 col-6 px-0">
+                <div class="col-lg-3 col-6 px-0" data-aos="fade-down">
                     <img src="images/video01.jpg" alt="">
                 </div>
-                <div class="col-lg-3 col-6 px-0">
+                <div class="col-lg-3 col-6 px-0" data-aos="fade-up">
                     <img src="images/video02.jpg" alt="">
                 </div>
-                <div class="col-lg-3 col-6 col-lg-block d-none px-0">
+                <div class="col-lg-3 col-6 d-lg-block d-none px-0" data-aos="fade-down">
                     <img src="images/video01.jpg" alt="">
                 </div>
-                <div class="col-lg-3 col-6 col-lg-block d-none px-0">
+                <div class="col-lg-3 col-6 d-lg-block d-none px-0" data-aos="fade-up">
                     <img src="images/video02.jpg" alt="">
                 </div>                        
             </div>
@@ -214,8 +215,8 @@
                 <div class="col-lg-12 padding_cadastro12">
                     
                     <form action="#" class="form_cadastro">
-                        <h3>Abertura de chamado e suporte</h3>
-                        <div class="form-row">
+                        <h3 data-aos="fade-down">Abertura de chamado e suporte</h3>
+                        <div class="form-row" data-aos="fade-up">
                             <div class="col-sm-6">
                                 <input type="text" class="form-control" placeholder="Seu Nome">
                             </div>
@@ -239,7 +240,7 @@
                                 </div>                                
                             </div>                            
                         </div>
-                        <div class="form-row">
+                        <div class="form-row" data-aos="fade-down">
                             <div class="col-lg-12">
                                 <textarea class="form-control" placeholder="Seu Nome"></textarea>
                                 <button type="submit" class="btn_round btn_laranja">Enviar Mensagem</button>
@@ -359,6 +360,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>

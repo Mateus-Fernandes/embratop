@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -32,7 +33,7 @@
                     </div>
                 </div>
                 <div class="bottom_nav">
-                    <nav class="navbar navbar-expand-lg navbar-light px-0 d-lg-block d-none">
+                    <nav class="navbar navbar-expand-lg navbar-light px-0 d-lg-block d-none fill">
                         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -93,7 +94,7 @@
             </div>
         </div>
     </header>
-    <div class="breadcrumb_page">
+    <div class="breadcrumb_page" data-aos="fade-down">
         <div class="container px-lg-0 px-3">
             <div class="d-flex justify-content-between">
                 <div class="titulo_bread d-flex"><div class="icone_breadcrumb contato_bread"></div> Contato</div>
@@ -103,22 +104,22 @@
     </div>
     <div class="conteudo_pagina_interna">
         <div class="container px-lg-0 px-3">
-            <h1>Fale Conosco</h1>
-            <p class="subtitulo_pagina">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, </p>
+            <h1 data-aos="fade-up">Fale Conosco</h1>
+            <p class="subtitulo_pagina" data-aos="fade-down">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, </p>
             <div class="row info_contato">
                 <div class="col-lg-4 col-md-12 padding_contato4">
                     <div class="row">
-                        <div class="atendimento_block col-lg-12 col-md-6">
+                        <div class="atendimento_block col-lg-12 col-md-6" data-aos="fade-down">
                             <h2>Atendimento</h2>
                             <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato tel_icon"></div> <a href="">(41) 3015-3040</a> </div>
                             <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato cel_icon"></div> <a href="">(41) 99898-3040</a></div>
                             <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato mail_icon"></div> <a href="">contato@embratopsul.com.br</a></div>
                         </div>
-                        <div class="localizacao_info col-lg-12 col-md-6">
+                        <div class="localizacao_info col-lg-12 col-md-6" data-aos="fade-up">
                             <h2>Localização</h2>
                             <div class="cada_item_contato d-flex"><div class="icone_contato map_icon info_contato_ico"></div><div>Av. Rui Barbosa, 8706 - 1ª andar Centro, São José dos Pinhais - PR, 83005-340 - <a href="#" class="laranja_link">VER NO MAPA</a></div></div>
                         </div>
-                        <div class="col-12 text-lg-left text-md-center text-left mb-lg-0 mb-5 mt-lg-0 mt-3">
+                        <div class="col-12 text-lg-left text-md-center text-left mb-lg-0 mb-5 mt-lg-0 mt-3" data-aos="fade-down">
                             <a href="#" class="btn_round botao_trabalhe mx-lg-none mx-auto">Trabalhe Conosco</a>
                         </div>
                         
@@ -127,9 +128,9 @@
                 </div>
                 
                 <div class="col-lg-8 padding_contato8">
-                    <h3>Entre em contato</h3>
+                    <h3 data-aos="fade-down">Entre em contato</h3>
                     <form action="#">
-                        <div class="form-row">
+                        <div class="form-row" data-aos="fade-up">
                             <div class="col-lg-6 col-md-6">
                                 <input type="text" class="form-control" placeholder="Seu Nome">
                             </div>
@@ -153,7 +154,7 @@
                                 </div>                                
                             </div>                            
                         </div>
-                        <div class="form-row">
+                        <div class="form-row" data-aos="fade-down">
                             <div class="col-lg-12">
                                 <textarea class="form-control" placeholder="Seu Nome"></textarea>
                                 <button type="submit" class="btn_round btn_laranja">Enviar Mensagem</button>
@@ -322,6 +323,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>
