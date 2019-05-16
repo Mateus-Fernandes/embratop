@@ -47,6 +47,20 @@
     .videoAqui{
         left: -20px;
         position: relative;
+    }
+    
+    /* Pagina Contato */
+
+    .localizacao_info {
+        margin-top: 0;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .botao_trabalhe{
+        margin-bottom: 0px;
+    }
+    section.redes_sociais_sec iframe {
+        width: 100%;
     }        
 }
 @media (max-width: 480px) // Mobile

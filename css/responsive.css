@@ -10,7 +10,11 @@
   .cada_coluna_footer { margin-right: 156px; margin-bottom: 35px; }
   .cada_coluna_footer:nth-of-type(2) { margin-right: 0; }
   .cada_coluna_footer:nth-of-type(4) { margin-right: 0; }
-  .videoAqui { left: -20px; position: relative; } }
+  .videoAqui { left: -20px; position: relative; }
+  /* Pagina Contato */
+  .localizacao_info { margin-top: 0; margin-bottom: 30px; margin-left: 0; }
+  .botao_trabalhe { margin-bottom: 0px; }
+  section.redes_sociais_sec iframe { width: 100%; } }
 
 @media (max-width: 480px) { .links_top { margin-left: 0; justify-content: center; width: 100%; }
   .logo { padding-top: 0px; }

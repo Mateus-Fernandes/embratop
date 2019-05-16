@@ -20,8 +20,8 @@ section.mapa_ref { height: 472px; }
 
 .conteudo_pagina_interna .cada_coluna_footer:last-child { margin-right: 0; max-width: 435px; }
 
-.conteudo_pagina_interna .cada_coluna_footer .cel_icon2 { background-position: -123px -215px; width: 31px; margin-right: 5px; left: -7px; height: 35px; }
+.conteudo_pagina_interna .cada_coluna_footer .cel_icon2 { background-position: -127px -220px; width: 31px; margin-right: 5px; left: -7px; height: 35px; }
 
-.conteudo_pagina_interna .cada_coluna_footer .map_icon2 { background-position: -102px -225px; min-width: 20px; margin-right: 15px; height: 22px; }
+.conteudo_pagina_interna .cada_coluna_footer .map_icon2 { background-position: -96px -225px; min-width: 20px; margin-right: 15px; height: 22px; }
 
 .conteudo_pagina_interna .linkedin_icon { background-position: -161px -215px; width: 49px; height: 46px; }
