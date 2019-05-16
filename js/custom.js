@@ -36,15 +36,6 @@ $('.encontra_items').slick({
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: false,
-          dots: false
-        }
-      },
-      {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
@@ -162,7 +153,29 @@ $('.encontra_items').slick({
     asNavFor: '.imagem_slider',
     dots: false,
     arrows: false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: false
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]    
   });
 
   $('.imagem_principal_produto').slick({
@@ -300,4 +313,13 @@ $('a[href^="#"]').on('click', function(event) {
           scrollTop: top
       }, 1000);
   }
+});
+
+$(document).ready(function() {
+     
+  $("span.lupa_search").click(function() {
+     $(".search-box").toggle("slow");
+     $("#formulario_pesquisa").focus();
+   });
+
 });

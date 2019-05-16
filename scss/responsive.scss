@@ -143,7 +143,12 @@
         }
         .cada_carrinho .titulo_carrinho h4 {
             font-size: 15px;
-        }           
+        }   
+        
+        .assistencia_bread{
+            background-position: -250%;
+            background-size: cover;
+        }
 }
 @media (max-width: 480px) // Mobile
 {
@@ -397,7 +402,11 @@
         height: 470px;
     }
 /* Assistencia */
-
+    .assistencia_bread{
+        background-position: -175%;
+        background-size: cover;
+        font-size: 14px;
+    }
     p.subtitulo_pagina {
         text-align: center;
     }

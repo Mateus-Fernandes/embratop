@@ -38,7 +38,8 @@
   /* orçamento */
   .table_orcamento h3 { padding: 10px 41px; font-size: 20px; }
   .cada_carrinho { min-width: 94px; }
-  .cada_carrinho .titulo_carrinho h4 { font-size: 15px; } }
+  .cada_carrinho .titulo_carrinho h4 { font-size: 15px; }
+  .assistencia_bread { background-position: -250%; background-size: cover; } }
 
 @media (max-width: 480px) { .links_top { margin-left: 0; justify-content: center; width: 100%; }
   .logo { padding-top: 0px; }
@@ -95,6 +96,7 @@
   .missao_visao_items .slick-prev { left: -2px; }
   .missao_visao_items .item_encontra { height: 470px; }
   /* Assistencia */
+  .assistencia_bread { background-position: -175%; background-size: cover; font-size: 14px; }
   p.subtitulo_pagina { text-align: center; }
   .conteudo_pagina_interna .subtitulo_pagina { margin-bottom: 0; }
   section.perguntas_respostas h2 { font-size: 37px; text-align: center; margin-bottom: 17px; }
