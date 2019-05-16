@@ -196,7 +196,7 @@ $('.encontra_items').slick({
         }
       },
       {
-        breakpoint: 780,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1

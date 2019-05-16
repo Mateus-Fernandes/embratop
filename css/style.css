@@ -16,7 +16,9 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .logo { padding-top: 15px; padding-bottom: 17px; margin-right: 70px; }
 
-.btn_round { background: #f5821f; color: #FFF; font-weight: 700; border-radius: 30px; text-align: center; font-size: 16px; align-items: center; padding-left: 29px; padding-right: 29px; padding-top: 8px; padding-bottom: 8px; }
+.btn_round { background: #f5821f; color: #FFF; font-weight: 700; border-radius: 30px; text-align: center; font-size: 16px; align-items: center; padding-left: 29px; padding-right: 29px; padding-top: 8px; padding-bottom: 8px; transition: .3s; }
+
+.btn_round:hover { background: #231f20; color: #FFF; }
 
 .top_nav { padding-top: 7px; }
 
@@ -36,9 +38,15 @@ header.topo { background: #FFFF; color: #231f20; }
 
 #navbarNav li a { font-size: 16px; font-weight: 900; color: #231f20; padding: 6px 16px; border-radius: 20px; }
 
+#navbarNav li a:hover { background: #f5821f; color: #FFF; }
+
 #navbarNav li:first-child a { padding-left: 0; }
 
+#navbarNav li:first-child a:hover { background: transparent; color: #231f20; }
+
 #navbarNav li:last-child a { padding-right: 0; }
+
+#navbarNav li:last-child a:hover { background: transparent; color: #231f20; }
 
 #navbarNav span.homebtn { width: 30px; height: 28px; background: url(../images/sprite.png); background-position: 1px 0px; display: block; }
 
@@ -248,7 +256,9 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .form_ligamos .form-group { margin-bottom: 9px; }
 
-.form_ligamos .envia_form { font-size: 14px; font-weight: bold; background: #000; color: #FFF; border-radius: 25px; padding: 11px 31px; border: 0; }
+.form_ligamos .envia_form { font-size: 14px; font-weight: bold; background: #000; color: #FFF; border-radius: 25px; padding: 11px 31px; border: 0; transition: .3s; }
+
+.form_ligamos .envia_form:hover { background: #ef7b0b; }
 
 .redes_sociais_sec { padding-top: 48px; padding-bottom: 55px; }
 
@@ -483,3 +493,12 @@ a.accordion-toggle[aria-expanded="false"] .up, a.accordion-toggle .up { backgrou
 .mobile_menu:hover { overflow-y: auto; }
 
 .mobile_menu .socialTopo { margin: 0; justify-content: flex-end; padding-top: 10px; }
+
+/* Modal */
+.modal { background: #ff5e00a3; }
+
+.modal-header { background: #ffffff; color: #333; border-bottom: 0; }
+
+.modal-header h5 { font-size: 30px; font-weight: bold; color: #ef7b0b; text-align: center; }
+
+.modal-content { border: none; border-radius: 25px; overflow: hidden; }

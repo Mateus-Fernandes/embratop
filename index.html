@@ -24,7 +24,7 @@
                 <div class="top_nav d-flex flex-wrap align-items-center">
                     <div class="central_atendimento d-lg-block d-none"><span>CENTRAL DE ATENDIMENTO:</span> (41) 3015-3040 / (41) 99898-3040</div>
                     <div class="links_top d-flex align-items-center">
-                        <a href="#" class="entre">Entre ou</a>
+                        <a href="#" class="entre" data-toggle="modal" data-target="#modalEntre">Entre ou</a>
                         <a href="#" class="btn btn_round btn_cadastro">Cadastre-se</a>
                         <span class="lupa_search"></span>
                         <span class="carrinho_top"></span>
@@ -92,6 +92,34 @@
             </div>
         </div>
     </header>
+    <!-- Modal Entrar -->
+    <div class="modal fade" id="modalEntre" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Entre com sua conta</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form action="" class="info_contato">
+                <div class="form-row">
+                    <div class="col-lg-12">
+                        <input type="text" class="form-control" placeholder="E-mail">
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="password" class="form-control" placeholder="Senha de Acesso">
+                    </div>                            
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="btn_round btn_laranja w-100">Entrar</button>
+                </div>                
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>    
     <section class="slider">
         <div id="sliderPrincipal" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">

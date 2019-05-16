@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/suporte.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>EMBRATOP - Suporte</title>
   </head>
   <body>
     <header class="topo">
         <div class="linha_ciza"></div>
-        <div class="container d-flex texto_top px-md-0 px-3">
+        <div class="container d-flex texto_top px-md-0 px-3 flex-md-row flex-column-reverse">
             <div class="logo">
                 <img src="images/logo.png" alt="">
             </div>
@@ -31,8 +32,8 @@
                     </div>
                 </div>
                 <div class="bottom_nav">
-                    <nav class="navbar navbar-expand-lg navbar-light px-0">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <nav class="navbar navbar-expand-lg navbar-light px-0 d-lg-block d-none">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
@@ -71,6 +72,23 @@
                             </ul>
                         </div>
                     </nav>
+                    <nav class="navigation d-lg-none d-block position-relative">
+                        <div class="hamburger">
+                            <span class="icone_barras d-block"></span>
+                        </div>
+                        <div class="mobile_menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Quem Somos</a></li>
+                            <li><a href="#">Produto</a></li>
+                            <li><a href="#">Orçamento</a></li>
+                            <li><a href="#">Suporte</a></li>
+                            <li><a href="#">Assistência Técnica</a></li>
+                            <li><a href="#">Área Restrita</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>                      
+                        </div>
+                    </nav>                    
                 </div>
             </div>
         </div>
@@ -175,16 +193,16 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3 px-0">
+                <div class="col-lg-3 col-6 px-0">
                     <img src="images/video01.jpg" alt="">
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-lg-3 col-6 px-0">
                     <img src="images/video02.jpg" alt="">
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-lg-3 col-6 col-lg-block d-none px-0">
                     <img src="images/video01.jpg" alt="">
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-lg-3 col-6 col-lg-block d-none px-0">
                     <img src="images/video02.jpg" alt="">
                 </div>                        
             </div>
@@ -196,20 +214,20 @@
                 <div class="col-lg-12 padding_cadastro12">
                     
                     <form action="#" class="form_cadastro">
-                        <h3>Cadastre algumas informações sobre você.</h3>
+                        <h3>Abertura de chamado e suporte</h3>
                         <div class="form-row">
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <input type="text" class="form-control" placeholder="Seu Nome">
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <input type="text" class="form-control" placeholder="Seu e-mail">
                             </div>                            
                         </div>
                         <div class="form-row">
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <input type="text" class="form-control" placeholder="Seu Telefone">
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <div class="filtro_select">
                                     <div class="custom-select2-wrapper">
                                         <select name="Selecione o setor" id="setor" class="custom-select2 sources" style="display: none;">
@@ -235,52 +253,102 @@
     <footer>
         <div class="sect1_footer">
             <div class="container">
-                <div class="d-flex">
-                    <div class="logo_footer">
-                        <img src="images/logo_footer.png" alt="Logo Embratop Sul">
-                    </div>
-                    <div class="links_contato_footer">
-                        <div class="row">
-                            <div class="col-lg-4">
+                <div class="row">
+                <div class="col-lg-6 pl-0">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 col-12 pb-md-0 pb-4">
+                            <div class="logo_footer">
+                                <img src="images/logo_footer.png" alt="Logo Embratop Sul">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-12">
+                            <div class="links_contato_footer">
                                 <div class="row">
-                                    <div class="col-lg-5 pr-0">
-                                        <ul>
-                                            <li><a href="#">Produto</a></li>
-                                            <li><a href="#">Orçamento</a></li>
-                                            <li><a href="#">Suporte</a></li>
-                                        </ul>
+                                    <div class="col-lg-12">
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-6 col-6 pr-0">
+                                                <ul>
+                                                    <li><a href="#">Produto</a></li>
+                                                    <li><a href="#">Orçamento</a></li>
+                                                    <li><a href="#">Suporte</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-7 col-md-6 col-6 px-0">
+                                                <ul>
+                                                    <li><a href="#">Assistência Técnica</a></li>
+                                                    <li><a href="#">Área Restrita</a></li>
+                                                    <li><a href="#">Contato</a></li>
+                                                </ul>
+                                            </div>                                    
+                                        </div>
                                     </div>
-                                    <div class="col-lg-7 px-0">
-                                        <ul>
-                                            <li><a href="#">Assistência Técnica</a></li>
-                                            <li><a href="#">Área Restrita</a></li>
-                                            <li><a href="#">Contato</a></li>
-                                        </ul>
-                                    </div>                                    
                                 </div>
                             </div>
-                            <div class="col-lg-8">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato tel_icon"></div> <a href="">(41) 3015-3040</a> </div>
-                                        <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato cel_icon"></div> <a href="">(41) 99898-3040</a></div>
-                                        <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato mail_icon"></div> <a href="">contato@embratopsul.com.br</a></div>
-                                    </div>
-                                    <div class="col-lg-6 px-0">
-                                        <div class="cada_item_contato d-flex laranja_contato"><div class="icone_contato map_icon"></div><div>Av. Rui Barbosa, 8706 - 1ª andar Centro, São José dos Pinhais - PR, 83005-340</div></div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="col-lg-6 col-12 pr-md-0 pr-3 mt-lg-0 mt-3">
+                    <div class="col-lg-12 px-0">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 mb-md-0 mb-4">
+                                <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato tel_icon"></div> <a href="">(41) 3015-3040</a> </div>
+                                <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato cel_icon"></div> <a href="">(41) 99898-3040</a></div>
+                                <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato mail_icon"></div> <a href="">contato@embratopsul.com.br</a></div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 px-md-0 px-3">
+                                <div class="cada_item_contato d-flex laranja_contato"><div class="icone_contato map_icon"></div><div><span>Matriz - Curitiba</span><br>PRGeo Com. de Equipamentos de Geomensura Ltda.</div></div>
                             </div>
                         </div>
                     </div>
                 </div>
+                </div>
+
             </div>
         </div>
-        <div class="sect3_footer sect_interna">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center">
+        <div class="sect2_footer">
+            <div class="container px-md-3 px-4">
+                <div class="d-flex flex-wrap">
+                    <div class="cada_coluna_footer mb-md-0 mb-4">
+                        <h2>Matriz <span>Curitiba</span></h2>
+                        <div class="cada_item_contato d-flex">
+                            <div class="icone_block_f"><div class="icone_contato map_icon2"></div></div>
+                            <span>PRGeo Com. de Equipamentos de Geomensura Ltda.</span> 
+                        </div>
+                        <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato cel_icon2"></div> <a href="">(41) 3015-3040</a> </div>
+                    </div>
+                    <div class="cada_coluna_footer mb-md-0 mb-4">
+                        <h2>Distribuidor <span>Santa Catarina</span></h2>
+                        <div class="cada_item_contato d-flex">
+                            <div class="icone_block_f"><div class="icone_contato map_icon2 oneline_icon"></div></div>
+                            <span>Nolla Geotecnologias</span>
+                        </div>
+                        <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato cel_icon2"></div> <a href="">(48) 3478-4478 / 9977-8049</a> </div>
+                    </div>
+                    <div class="cada_coluna_footer mb-md-0 mb-4">
+                        <h2>Distribuidor <span>Rio Grande do Sul</span></h2>
+                        <div class="cada_item_contato d-flex">
+                            <div class="icone_block_f"><div class="icone_contato map_icon2"></div></div>
+                            <span>Geotécnica Equipamentos e Sistemas Topográficos Ltda.</span>
+                        </div>
+                        <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato cel_icon2"></div> <a href="">(51) 3222-5113</a> </div>
+                    </div>
+                    <div class="cada_coluna_footer especial_maior mb-md-0 mb-4">
+                        <h2>Empresa Coligada <span>Embratop Geotecnologias Ltda</span></h2>
+                        <div class="cada_item_contato d-flex">
+                            <div class="icone_block_f"><div class="icone_contato map_icon2"></div></div>
+                            <span>Av. Dr. Hugo Beolchi, 445 - 13º Andar <br>Jabaquara - CEP 04310-030 - São Paulo - SP</span>
+                        </div>
+                        <div class="cada_item_contato d-flex align-items-center"><div class="icone_contato cel_icon2"></div> <a href="">(11) 5018-1800 </a> </div>
+                    </div>                                                                                
+                </div>
+            </div>
+        </div>
+        <div class="sect3_footer">
+            <div class="container px-md-3 px-4">
+                <div class="d-flex justify-content-between align-items-center">
                     <div class="copydiv d-flex align-items-center">Design by <div class="redLogo"></div></div>
+                    <div class="icon_social_box linkedin_ico"></div>
                 </div>
             </div>
 

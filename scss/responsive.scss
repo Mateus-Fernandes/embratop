@@ -48,7 +48,9 @@
         left: -20px;
         position: relative;
     }
-    
+    .breadcrumb_page{
+        background-position: 1177px;
+    }
     /* Pagina Contato */
 
     .localizacao_info {
@@ -59,9 +61,89 @@
     .botao_trabalhe{
         margin-bottom: 0px;
     }
-    section.redes_sociais_sec iframe {
+    .redes_sociais_sec iframe {
         width: 100%;
-    }        
+    }
+    /* Pagina Cadastre */
+
+    .form_cadastro {
+        padding: 32px 50px 3px 50px;
+    }
+
+    /* Quem Somos */
+    .imagem_50 {
+        background: url(../images/quemsomos/quemsomos_01.jpg);
+        width: 720px;
+        height: 380px;
+        position: relative;
+        margin: 0 auto;
+        background-size: cover;
+    }
+    .css_quem{    
+        .linhaHover {
+            width: 663px;
+            margin-left: -119px;
+        }
+        .texto_linha_tempo{
+            padding-top: 37px;
+        }
+        .slick-active:nth-of-type(2) .linhaHover{
+            margin-left: -260px;
+        } 
+        .slick-active:nth-of-type(3) .linhaHover{
+            margin-left: -373px;
+        }
+        .slick-slide:nth-child(n+4):nth-child(-n+10) .linhaHover {
+            margin-left: -498px;
+        }                         
+    }
+    .missao_visao_items {
+        .slick-slide {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .item_encontra{
+            height: 532px;
+            padding: 20px;
+            padding-top: 54px;
+            padding-bottom: 46px;
+            h4{
+                font-size: 24px;
+            }
+        }
+    }
+/* produtos Interna */
+
+    .produtos_page_interna img {
+        max-width: 100%;
+    }
+    .produto_descricao_page a.botao_carrinho {
+        min-width: 247px;
+        padding: 4px 12px;
+        font-size: 15px;
+        height: 55px;
+    }
+    .produto_descricao_page a.botao_download_ficha {
+        padding: 2px 4px;
+    }
+    .produto_descricao_page .icone_download_p {
+        min-width: 30px;
+    }
+    .produto_items .slick-prev {
+        left: -24px;
+    }
+        /* orçamento */
+
+        .table_orcamento h3 {
+            padding: 10px 41px;
+            font-size: 20px;
+        }
+        .cada_carrinho {
+            min-width: 94px;
+        }
+        .cada_carrinho .titulo_carrinho h4 {
+            font-size: 15px;
+        }           
 }
 @media (max-width: 480px) // Mobile
 {
@@ -180,5 +262,273 @@
     }
     .logo_footer {
         text-align: center;
-    }                               
+    }
+    
+    /* Pagina Contato */
+    .breadcrumb_page{
+        background-position: 750px;
+    }
+    .localizacao_info {
+        margin-top: 24px;
+        margin-bottom: 23px;
+    }
+    .conteudo_pagina_interna .cada_coluna_footer .map_icon2 {
+        background-position: -95px -225px;
+        min-width: 26px;
+        margin-right: 15px;
+        height: 22px;
+    }
+    .conteudo_pagina_interna .cada_coluna_footer{
+        margin-bottom: 40px;
+    }
+    .botao_trabalhe {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .padding_contato4 {
+        padding-right: 22px;
+        padding-left: 50px;
+    }
+    
+    /* Pagina Cadastre-se */
+
+    .form_cadastro {
+        padding: 14px 10px 3px 10px;
+        text-align: center;
+    }
+    label.form-check-label {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    /* Quem Somos */
+
+    .imagem_50 {
+        background: url(../images/quemsomos/quemsomos_01.jpg);
+        width: 320px;
+        height: 185px;
+        position: relative;
+        margin: 0 auto;
+        background-size: cover;
+    }
+    .conteudo_pagina_interna h1{
+        font-size: 37px;
+    }
+
+    .css_quem .linha .slick-list.draggable {
+        z-index: 10;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 23px;
+    }    
+    .linha .slick-next {
+        right: -35px;
+    }
+    .linha .slick-prev {
+        left: -35px;
+    }
+    .css_quem .ano {
+        padding-top: 31px;
+    }
+    .css_quem .slick-track .slick-slide:nth-of-type(even) .ano {
+        padding-top: 23px;
+    }  
+    .css_quem .imagem_linha_tempo {
+        display: none;
+    }
+    .css_quem .linhaHover {
+        width: 250px;
+        margin-top: 64px;
+        top: 100%;
+        margin-left: -55px;
+        z-index: 20;
+        display: none;
+    }
+    .css_quem .texto_linha_tempo {
+        background: #FFF;
+        margin-left: 0px;
+        border-radius: 20px;
+        padding-left: 17px;
+        padding-top: 32px;
+        padding-right: 17px;
+        font-size: 14px;
+        box-shadow: 1px 1px 6px 3px #00000024;
+    }
+    .slick-slide:nth-child(n+2):nth-child(-n+4) .linhaHover {
+        margin-left: -173px;
+    }
+    .missao_visao_items .slick-slide{
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .missao_visao_items .slick-list.draggable {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .missao_visao_items{
+        .slick-next:before, .slick-prev:before {
+            font-family: slick;
+            width: 33px;
+            content: '';
+            font-size: 20px;
+            line-height: 1;
+            opacity: .75;
+            color: #fff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            height: 43px;
+            background: url(../images/sprite.png);
+            display: block;
+        }
+        .slick-next:before {
+            background-position: -6px -237px !important;
+        }
+        .slick-prev:before {
+            background-position: -4px -192px !important;
+        } 
+        .slick-next {
+            right: 2px;
+        }
+        .slick-prev {
+            left: -2px;
+        }         
+    }
+    .missao_visao_items .item_encontra{
+        height: 470px;
+    }
+/* Assistencia */
+
+    p.subtitulo_pagina {
+        text-align: center;
+    }
+    .conteudo_pagina_interna .subtitulo_pagina {
+        margin-bottom: 0
+    }
+    section.perguntas_respostas h2 {
+        font-size: 37px;
+        text-align: center;
+        margin-bottom: 17px;
+    }
+    .cliente_radio {
+        padding-top: 14px;
+    }
+    .formulario_entreemcontato .btn_round.btn_laranja {
+        margin-left: 16%;
+    }
+    .slider_fotos .slick-prev {
+        background-size: 376px;
+        background-position: -193px -278px;
+        width: 11px;
+        height: 15px;
+    }
+    .slider_fotos .slick-next {
+        background-size: 376px;
+        background-position: -205px -278px;
+        width: 11px;
+        height: 15px;
+    }
+
+    /* Produtos Interna */
+
+    .produtos_page_interna img {
+        max-width: 100%;
+    }
+    .thumb_produto .slick-list {
+        margin: 0 !important;
+    }
+    .produto_informacoes .padding-title {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .produto_informacoes h1 {
+        font-size: 38px;
+    }
+    .produto_descricao_page a.botao_veja_preco {
+        font-size:15px;
+    }
+    .entre_contato_produto {
+        border: 0;
+    }
+    .produto_descricao_page a.botao_carrinho {
+        min-width: 240px;
+        padding: 5px 6px;
+        font-size: 15px;
+        height: 59px;
+    }
+    .produto_descricao_page a.botao_download_ficha {
+        padding: 1px 5px;
+        min-width: 102px;
+        font-size: 12px;
+    }
+    .produto_descricao_page .icone_download_p {
+        min-width: 30px;
+        margin-left: 1px;
+    }
+    .produto_items .slick-list.draggable {
+        margin: 0 0px;
+    }  
+    .titulo_produto_list h4 {
+        font-size:17px;
+    }
+    /* produtos */
+    .listagem_page_produtos {
+        overflow-x: hidden;
+        padding: 0 20px;
+    }
+    /* Suporte */
+    .conteudoDuvidas {
+        margin-top: 30px;
+    }
+    .produtos_videos img {
+        max-width: 100%;
+    }
+    .contato_suporte .form_cadastro {
+        padding-left: 17px;
+        padding-right: 20px;
+    }
+    .form_cadastro h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .conteudo_pagina_interna h1 {
+        font-size: 36px;
+    }
+
+    /* orçamento */
+
+    .carrinho_table  {
+        flex-wrap: wrap
+    }
+    .formulario_entreemcontato {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .info_contato h3 {
+        text-align: center;
+    }
+    .cada_carrinho {
+        min-width: 94px;
+    }
+    .cada_carrinho.flex-grow-1 {
+        flex-basis: 0;
+        min-width: 208px;
+    }
+    .cada_carrinho {
+        min-width: 94px;
+        margin-bottom: 20px;
+    }
+    .cada_carrinho .titulo_carrinho h4 {
+        font-size: 17px;
+    }
+    a.proxima_etapa {
+        font-size: 24px;
+        padding: 11px 31px;
+        margin-top: -165px;
+        height: 55px;
+    }
+    .table_orcamento h3 {
+        padding: 10px 27px;
+        font-size: 22px;
+        margin-top: 12px;
+    }                                   
 }

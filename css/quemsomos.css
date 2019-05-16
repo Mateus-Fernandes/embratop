@@ -1,5 +1,7 @@
 .imagem_50 { background: url(../images/quemsomos/quemsomos_01.jpg); width: 50%; height: 100%; top: 0; right: 0; position: absolute; }
 
+.breadcrumb_page .quemsomos_bread { background-position: -97px -272px; width: 27px; height: 22px; margin-right: 13px; }
+
 .secao_01_quemsomos { position: relative; }
 
 .quemsomos_content { padding-top: 0; }
@@ -91,3 +93,13 @@
 .missao_visao_items .icone_block { min-height: 75px; display: flex; align-items: center; }
 
 .video_quemsomos { background: #f8f7f7; }
+
+.linha .slick-next:before, .linha .slick-prev:before { font-family: slick; width: 18px; content: ''; font-size: 20px; line-height: 1; opacity: 1; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 28px; background: url(../images/sprite.png); display: block; top: -9px; position: relative; }
+
+.linha .slick-next:before { background-position: -382px -167px !important; }
+
+.linha .slick-prev:before { background-position: -359px -167px !important; }
+
+.linha .slick-prev { left: -40px; }
+
+.linha .slick-next { right: -40px; }
