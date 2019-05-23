@@ -26,7 +26,7 @@
 
 .css_quem .forcaraparecer { display: block !important; }
 
-.css_quem .ano { padding-left: 27px; padding-top: 54px; padding-right: 27px; }
+.css_quem .ano { padding-left: 27px; padding-top: 54px; padding-right: 27px; cursor: pointer; }
 
 .css_quem .slick-track .slick-slide:nth-of-type(even) .ano { padding-top: 47px; padding-left: 36px; padding-right: 36px; }
 
@@ -41,6 +41,8 @@
 .css_quem .linhaHover { width: 677px; margin-top: 64px; top: 100%; margin-left: -25px; z-index: 20; display: none; }
 
 .css_quem .linhafina:before { content: ''; width: 3px; height: 90px; background: #231f20; top: 17%; position: absolute; margin-left: 39px; z-index: -1; opacity: 1; }
+
+.css_quem .linhafina.opacity:before { opacity: 0 !important; }
 
 .css_quem .linhafina:nth-of-type(even):before { content: ''; width: 3px; height: 80px; background: #231f20; top: 17%; position: absolute; margin-left: 56px; z-index: -1; opacity: 1; }
 
@@ -62,7 +64,9 @@
 
 .css_quem .tempo { background: #f9f7fa; }
 
-.css_quem .imagem_linha_tempo { border-radius: 20px; overflow: hidden; min-width: 269px; }
+.css_quem .imagem_linha_tempo { border-radius: 20px; overflow: hidden; min-width: 269px; height: inherit; }
+
+.css_quem .imagem_linha_tempo img { height: 100%; }
 
 .css_quem .texto_linha_tempo { background: #FFF; margin-left: 0px; border-radius: 20px; padding-left: 46px; padding-top: 52px; padding-right: 46px; font-size: 14px; box-shadow: 1px 1px 6px 3px #00000024; }
 
@@ -76,7 +80,7 @@
 
 .missao_visao_items .slick-slide { margin-right: 33px; margin-left: 33px; }
 
-.missao_visao_items .item_encontra { height: 420px; padding: 23px; padding-top: 54px; padding-bottom: 46px; }
+.missao_visao_items .item_encontra { height: inherit; padding: 23px; padding-top: 54px; padding-bottom: 46px; }
 
 .missao_visao_items .item_encontra p { font-size: 14px; line-height: 24px; }
 
@@ -90,7 +94,7 @@
 
 .missao_visao_items .item_encontra .visao_ico { width: 117px; height: 58px; background-position: -524px -229px; }
 
-.missao_visao_items .icone_block { min-height: 75px; display: flex; align-items: center; }
+.missao_visao_items .icone_block { height: 96px; display: flex; align-items: center; }
 
 .video_quemsomos { background: #f8f7f7; }
 

@@ -79,7 +79,7 @@
     .ano {
         padding-left: 27px;
         padding-top: 54px;
-        padding-right: 27px;
+        padding-right: 27px;cursor: pointer;
     }
     
     .slick-track .slick-slide:nth-of-type(even) .ano {
@@ -130,6 +130,9 @@
         margin-left: 39px;
         z-index: -1;
         opacity: 1;
+    }
+    .linhafina.opacity:before{
+        opacity: 0 !important;
     }
 
     .linhafina:nth-of-type(even):before{
@@ -202,6 +205,10 @@
         border-radius: 20px;
         overflow: hidden;
         min-width: 269px;
+        height: inherit;
+        img{
+            height: 100%;
+        }
     }
     .texto_linha_tempo {
         background: #FFF;
@@ -237,7 +244,7 @@
         margin-left: 33px;
     }
     .item_encontra{
-        height: 420px;
+        height: inherit;
         padding: 23px;
         padding-top: 54px;
         padding-bottom: 46px;
@@ -273,7 +280,7 @@
         }                        
     }
     .icone_block {
-        min-height: 75px;
+        height: 96px;
         display: flex;
         align-items: center;
     }

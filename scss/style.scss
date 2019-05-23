@@ -319,14 +319,20 @@ header.topo{
         background-position: -4px -192px !important;
     }         
 }
+
 .item_encontra{
     width: 213px;
-    height: 208px;
     background: #FFF;
     box-shadow: 0px 0px 12px 2px #00000014;
     border-radius: 10px;
     margin-right: 25px;
+    padding: 30px 19px;
+    height: 100%;
     transition: background-color .5s ease;
+    .icone_caixa_encontra {
+        height: 76px;
+        margin-bottom: 22px;
+    }    
     cursor: pointer;
     h4{
         color: #1a1e32;
@@ -416,6 +422,7 @@ header.topo{
     &:hover{
         .titulo_produto_list{
             background: $laranja;
+            
         }
     }
 }
@@ -431,6 +438,9 @@ header.topo{
     padding-top: 14px;
     padding-bottom: 14px;
     transition: background-color .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     h4{
         color: #FFF;
         font-size: 18px;
@@ -476,10 +486,13 @@ header.topo{
     border-radius: 13px;
     box-shadow: 0px 0px 11px 3px #0000001a;
     overflow: hidden;
+    height: inherit;
     cursor: pointer;
+    transition: background-color .3s linear;
     &:hover{
+        background: $laranja;
         .descricao_servico_list{
-            background: $laranja;
+            
             h4{
                 color: #FFF;
             }
@@ -511,6 +524,9 @@ header.topo{
 }
 .imagem_servico_list{
     height: 173px; 
+    img{
+        width: 100%;
+    }
 }
 .descricao_servico_list{
     padding: 20px 28px ;
@@ -1626,3 +1642,60 @@ nav.fill ul li a:hover:before {
       background: #f5821f;
     }
   }
+
+  // SLick alterações
+
+  .slick-track{
+      display: flex !important;
+  }
+  .slick-slide{
+      height: inherit;
+  }
+  .slick-slide > div{
+    height: 100%;
+}  
+
+//MODAL VIDEO
+#ModalVideo{
+    .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+  
+  
+  
+  .modal-body {
+    position:relative;
+    padding:0px;
+  }
+  .close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+  }
+}
+
+.button_play.video-btn {
+    display: block;
+    position: absolute;
+    background: url(../images/sprite.png);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+	width: 67px;
+    height: 68px;
+    background-position: -503px -107px;    
+    border: none;
+    cursor: pointer;
+}
+
+a.proxima_etapa{
+    font-size: 24px;
+    padding: 11px 50px;
+}

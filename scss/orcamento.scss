@@ -46,7 +46,9 @@
         }
     }    
     .desc_carrinho {
-        height: 150px;
+        height: inherit;
+        flex-grow: 1;
+        padding: 10px;
         span{
             font-size: 20px;
             color: #231f20;
@@ -57,10 +59,7 @@
         }
     }    
 }
-a.proxima_etapa{
-    font-size: 24px;
-    padding: 11px 50px;
-}
+
 
 .excluir_btn{
     width: 40px;

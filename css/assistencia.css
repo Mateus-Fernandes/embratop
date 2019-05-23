@@ -33,3 +33,5 @@ section.perguntas_respostas h2 { font-size: 50px; font-weight: bold; color: #f58
 .slider_fotos .slick-prev::before { content: ''; display: none; }
 
 .slider_fotos .thumb_slider .slick-slide { margin-left: 8px; margin-right: 8px; }
+
+.item_encontra .icone_caixa_encontra { height: 95px; margin-bottom: 22px; display: flex; align-items: center; }

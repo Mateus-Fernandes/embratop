@@ -20,8 +20,8 @@
 
 .paginacao_produtos { margin-top: 35px; margin-bottom: 28px; }
 
-.paginacao_produtos .cada_page { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #f5821f; border-radius: 50%; margin-right: 10px; color: #FFF; font-size: 14px; cursor: pointer; transition: .3s; }
+.paginacao_produtos .cada_page { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #f8f7f7; border-radius: 50%; margin-right: 10px; color: #231f20; font-size: 14px; cursor: pointer; transition: .3s; }
 
-.paginacao_produtos .cada_page:hover { background: #231f20; }
+.paginacao_produtos .cada_page:hover { background: #231f20; color: #FFF; }
 
-.paginacao_produtos .cada_page.active_page { background: #f8f7f7; color: #231f20; }
+.paginacao_produtos .cada_page.active_page { background: #f5821f; color: #FFF; }

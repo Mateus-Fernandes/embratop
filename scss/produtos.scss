@@ -100,19 +100,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #f5821f;
+        background: #f8f7f7;
         border-radius: 50%;
         margin-right: 10px;
-        color: #FFF;
+        color: #231f20;
         font-size: 14px;
         cursor: pointer;
         transition: .3s;
         &:hover{
             background: #231f20;
+            color: #FFF;
         }
     }
     .cada_page.active_page {
-        background: #f8f7f7;
-        color: #231f20;
+        background: #f5821f;
+        
+        color: #FFF;
     }    
 }
