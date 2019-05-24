@@ -94,7 +94,7 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .produtos_servicos { padding-top: 40px; padding-bottom: 55px; }
 
-.produtos_servicos .slick-next:before, .produtos_servicos .slick-prev:before { font-family: slick; width: 33px; content: ''; font-size: 20px; line-height: 1; opacity: .75; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 43px; background: url(../images/sprite.png); display: block; }
+.produtos_servicos .slick-next:before, .produtos_servicos .slick-prev:before { font-family: slick; width: 26px; content: ''; font-size: 20px; line-height: 1; opacity: .75; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 43px; background: url(../images/sprite.png); display: block; }
 
 .produtos_servicos .slick-next:before { background-position: -6px -237px !important; }
 
@@ -128,7 +128,7 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .produto_items .slick-slide { margin-right: 0; margin-left: 0; }
 
-.produto_items .slick-next:before, .produto_items .slick-prev:before { font-family: slick; width: 33px; content: ''; font-size: 20px; line-height: 1; opacity: .75; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 43px; background: url(../images/sprite.png); display: block; }
+.produto_items .slick-next:before, .produto_items .slick-prev:before { font-family: slick; width: 26px; content: ''; font-size: 20px; line-height: 1; opacity: .75; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 43px; background: url(../images/sprite.png); display: block; }
 
 .produto_items .slick-next:before { background-position: -6px -237px !important; }
 
@@ -148,7 +148,7 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .nosso_servicos .slick-slide { margin-right: 0; margin-left: 0; }
 
-.nosso_servicos .slick-next:before, .nosso_servicos .slick-prev:before { font-family: slick; width: 33px; content: ''; font-size: 20px; line-height: 1; opacity: .75; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 43px; background: url(../images/sprite.png); display: block; }
+.nosso_servicos .slick-next:before, .nosso_servicos .slick-prev:before { font-family: slick; width: 26px; content: ''; font-size: 20px; line-height: 1; opacity: .75; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 43px; background: url(../images/sprite.png); display: block; }
 
 .nosso_servicos .slick-next:before { background-position: -6px -237px !important; }
 
@@ -172,7 +172,7 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .cada_servico_list:hover .suport_icon { background-position: -279px -151px; width: 56px; height: 65px; }
 
-.imagem_servico_list { height: 173px; }
+.imagem_servico_list { height: 173px; overflow: hidden; }
 
 .imagem_servico_list img { width: 100%; }
 
@@ -497,6 +497,49 @@ a.accordion-toggle[aria-expanded="false"] .up, a.accordion-toggle .up { backgrou
 .mobile_menu:hover { overflow-y: auto; }
 
 .mobile_menu .socialTopo { margin: 0; justify-content: flex-end; padding-top: 10px; }
+
+/* start menu */
+.hamburger2 { position: relative; display: block; top: -11px; right: 0px; cursor: pointer; z-index: 99999999; padding: 10px 15px 5px; }
+
+.icone_barras { width: 38px; height: 30px; background: url(../images/sprite.png); background-position: -7px -287px; }
+
+.hamburger2 span { vertical-align: middle; }
+
+.hamburger2 .bars { display: block; position: relative; width: 32px; height: 4px; background: #ba1700; border-radius: 80px; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.hamburger2 .bars:before, .hamburger2 .bars:after { position: absolute; content: " "; width: 100%; height: 4px; background: #ba1700; border-radius: 80px; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.hamburger2 .bars:before { top: 10px; }
+
+.hamburger2 .bars:after { bottom: 10px; }
+
+.open_menu .hamburger2 .bars { background-color: transparent; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.open_menu .hamburger2 .bars::before { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+.open_menu .hamburger2 .bars::after { bottom: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+
+.mobile_menu2 { width: 290px; height: 100%; padding: 75px 20px 0; background: #ffffff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.18); position: fixed; right: -100%; top: 0; opacity: 0; z-index: 999999; margin-top: 0; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.mobile_menu2 ul li a { color: #ffffff; width: 100%; padding: 13px 20px; text-transform: uppercase; font-size: 17px; font-weight: 500; font-family: 'Montserrat', sans-serif; text-decoration: none; transition: .5s; display: block; border-radius: 0; letter-spacing: 0.1em; margin-left: 0; border-bottom: 1px solid #fff; }
+
+.open_menu .hamburger2 { top: -60px; right: -28%; opacity: 0; }
+
+.open_menu .hamburger2 .icone_barras { background-position: -575px -66px; width: 40px; height: 40px; }
+
+.mobile_menu2 ul { padding: 0; list-style: none; text-align: left; }
+
+.mobile_menu2 li { width: 100%; }
+
+.mobile_menu2 a:hover { color: white; }
+
+.open_menu .mobile_menu2 { right: 0; opacity: 1; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.mobile_menu2:hover { overflow-y: auto; }
+
+.mobile_menu2 .socialTopo { margin: 0; justify-content: flex-end; padding-top: 10px; }
+
+.excluir_btn { width: 40px; height: 40px; background: url(../images/sprite.png); background-position: -575px -66px; }
 
 /* Modal */
 .modal { background: #ff5e00a3; }

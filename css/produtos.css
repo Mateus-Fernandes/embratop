@@ -25,3 +25,5 @@
 .paginacao_produtos .cada_page:hover { background: #231f20; color: #FFF; }
 
 .paginacao_produtos .cada_page.active_page { background: #f5821f; color: #FFF; }
+
+.btn_hamburg { position: absolute; top: 14px; right: 20px; }

@@ -311,6 +311,13 @@ $(".hamburger").click(function () {
   $(".navigation").toggleClass("open_menu");
 });
 
+$(".hamburger2").click(function () {
+  $(".navigation2").toggleClass("open_menu");
+});
+$(".btn_hamburg").click(function () {
+  $(".navigation2").toggleClass("open_menu");
+});
+
 $('a[href^="#"]').on('click', function (event) {
   var target = $(this.getAttribute('href'));
 
@@ -363,3 +370,4 @@ $(document).ready(function () {
   })
 
 });
+
