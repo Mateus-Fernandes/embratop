@@ -142,4 +142,5 @@
   .slider_fotos .slick-slide img { width: 100%; }
   .linha .slick-next:before, .linha .slick-prev:before { font-family: slick; width: 18px; content: ''; font-size: 20px; line-height: 1; opacity: 1; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 28px; background: url(../images/sprite.png); display: block; top: 0px; position: relative; }
   .linha .slick-next:before, .linha .slick-prev:before { font-family: slick; width: 18px; content: ''; font-size: 20px; line-height: 1; opacity: 1; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 28px; background: url(../images/sprite.png); display: block; top: 0px; position: relative; }
-  a.suporte_btn { font-size: 16px; height: auto; } }
+  a.suporte_btn { font-size: 16px; height: auto; }
+  .interna_produtos_bread { background-size: inherit; background-position: 646px; } }
