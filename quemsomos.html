@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/quemsomos.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>EMBRATOP - Quem Somos</title>
   </head>
   <body>
-    <header class="topo">
+    <header class="topo" data-toggle="sticky-onscroll">
         <div class="linha_ciza"></div>
         <div class="container d-flex texto_top px-md-0 px-3 flex-md-row flex-column-reverse">
             <div class="logo">
@@ -24,52 +26,67 @@
             </div>
             <div class="right_nav">
                 <div class="top_nav d-flex flex-wrap align-items-center">
-                    <div class="central_atendimento d-lg-block d-none"><span>CENTRAL DE ATENDIMENTO:</span> (41) 3015-3040 / (41) 99898-3040</div>
+                    <div class="central_atendimento d-lg-block d-none"><span>CENTRAL DE ATENDIMENTO:</span> (41)
+                        3015-3040 / (41) 99898-3040</div>
                     <div class="links_top d-flex align-items-center">
-                        <a href="#" class="entre">Entre ou</a>
+                        <a href="#" class="entre" data-toggle="modal" data-target="#modalEntre">Entre ou</a>
                         <a href="#" class="btn btn_round btn_cadastro">Cadastre-se</a>
-                        <span class="lupa_search"></span>
-                        <span class="carrinho_top"></span>
+                        <div class="icone_pesquisa position-relative">
+                            <span class="lupa_search">
+                                    <svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.56 42.56"><title>Vector Smart Object2</title><circle cx="17.5" cy="17.5" r="16" style="fill:none;stroke:#efefef;stroke-linejoin:round;stroke-width:3px"/><line x1="29.5" y1="29.5" x2="41.5" y2="41.5" style="fill:none;stroke:#efefef;stroke-linejoin:round;stroke-width:3px"/></svg>
+                            </span>
+                            <div class="search-box">
+                                <input id="formulario_pesquisa" type="text" placeholder="" />
+                                <input type="button" value="Pesquisar" />
+                            </div>
+                        </div>
+
+                        <span class="carrinho_top">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29"><title>carrinho</title><polygon points="28 20 10 20 7 5 31 5 28 20" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:2px"/><polyline points="0 1 6 1 7 5" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:2px"/><polyline points="10 20 9 23 29 23" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:2px"/><circle cx="13" cy="27" r="1" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:2px"/><circle cx="25" cy="27" r="1" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:2px"/></svg>
+                        </span>
                     </div>
                 </div>
                 <div class="bottom_nav">
                     <nav class="navbar navbar-expand-lg navbar-light px-0 d-lg-block d-none fill">
-                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav d-flex align-items-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><span class="homebtn"></span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Quem Somos</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="produtoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Produto
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="produtoDropdown">
-                                <a class="dropdown-item" href="#">Novos</a>
-                                <a class="dropdown-item" href="#">Usados</a>
-                                <a class="dropdown-item" href="#">Locação</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Orçamento</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Suporte</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Assistência Técnica</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Área Restrita</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contato</a>
-                            </li>                                                                                                            
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><span class="homebtn"></span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Quem Somos</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="produtoDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Produto
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="produtoDropdown">
+                                        <a class="dropdown-item" href="#">Novos</a>
+                                        <a class="dropdown-item" href="#">Usados</a>
+                                        <a class="dropdown-item" href="#">Locação</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Orçamento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Suporte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Assistência Técnica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Área Restrita</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contato</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -78,18 +95,21 @@
                             <span class="icone_barras d-block"></span>
                         </div>
                         <div class="mobile_menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Quem Somos</a></li>
-                            <li><a href="#">Produto</a></li>
-                            <li><a href="#">Orçamento</a></li>
-                            <li><a href="#">Suporte</a></li>
-                            <li><a href="#">Assistência Técnica</a></li>
-                            <li><a href="#">Área Restrita</a></li>
-                            <li><a href="#">Contato</a></li>
-                        </ul>                      
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Quem Somos</a></li>
+                                <li><a href="#">Produto</a></li>
+                                <li><a href="#">Orçamento</a></li>
+                                <li><a href="#">Suporte</a></li>
+                                <li><a href="#">Assistência Técnica</a></li>
+                                <li><a href="#">Área Restrita</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                            <div class="central_atendimento"><span>CENTRAL DE ATENDIMENTO:</span><br>(41)
+                                3015-3040 / (41) 99898-3040
+                            </div>                            
                         </div>
-                    </nav>                    
+                    </nav>
                 </div>
             </div>
         </div>
@@ -421,8 +441,8 @@
         <div class="sect3_footer">
             <div class="container px-md-3 px-4">
                 <div class="d-flex justify-content-between align-items-center">
-                    <div class="copydiv d-flex align-items-center">Design by <div class="redLogo"></div></div>
-                    <div class="icon_social_box linkedin_ico"></div>
+                    <div class="copydiv d-flex align-items-center">Design by <div class="redLogo"><img src="images/redv2.svg" alt=""></div></div>
+                    <div class="icon_social_box linkedin_ico"><i class="fab fa-linkedin-in"></i></div>
                 </div>
             </div>
 

@@ -343,11 +343,12 @@
     }
     .css_quem .linhaHover {
         width: 168px;
-        margin-top: 64px;
-        top: 100%;
+        top: 74px;
         margin-left: -55px;
         z-index: 20;
         display: none;
+        margin-top: 0;
+        position: relative;
     }
     .css_quem .texto_linha_tempo {
         background: #FFF;
