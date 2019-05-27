@@ -343,12 +343,11 @@
     }
     .css_quem .linhaHover {
         width: 168px;
-        top: 74px;
+        margin-top: 64px;
+        top: 100%;
         margin-left: -55px;
         z-index: 20;
         display: none;
-        margin-top: 0;
-        position: relative;
     }
     .css_quem .texto_linha_tempo {
         background: #FFF;
@@ -625,3 +624,16 @@
             width: 180px;
     }
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */ 
+    .css_quem .linhaHover {
+        width: 168px;
+        margin-top: 0px;
+        top: 100%;
+        margin-left: -55px;
+        z-index: 20;
+        display: none;
+    }    
+  }
+  
