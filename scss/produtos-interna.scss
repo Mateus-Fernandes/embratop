@@ -53,29 +53,42 @@
         margin-right: 0;
     }
 }
+.share_icoo{
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    i{
+        font-size: 14px;
+        color: #FFF;
+    }
+}
 .facebook_ico_produto{
-    background: url(../images/sprite.png);
+    //background: url(../images/sprite.png);
     width: 27px;
     height: 25px;
-    background-position: -504px -36px;
+
+    //background-position: -504px -36px;
 }
 .youtube_ico_produto{
-    background: url(../images/sprite.png);
+    //background: url(../images/sprite.png);
     width: 27px;
     height: 25px;
-    background-position: -571px -36px;
+    //background-position: -571px -36px;
 }
 .whats_ico_produto{
-    background: url(../images/sprite.png);
+    //background: url(../images/sprite.png);
     width: 27px;
     height: 25px;
-    background-position: -537px -36px;
+    //background-position: -537px -36px;
 }
 .google_ico_produto{
-    background: url(../images/sprite.png);
+    //background: url(../images/sprite.png);
     width: 27px;
     height: 25px;
-    background-position: -605px -36px;
+    //background-position: -605px -36px;
 }
 
 .produto_descricao_page{

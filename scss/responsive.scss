@@ -342,7 +342,7 @@
         display: none;
     }
     .css_quem .linhaHover {
-        width: 210px;
+        width: 168px;
         margin-top: 64px;
         top: 100%;
         margin-left: -55px;
@@ -360,7 +360,7 @@
         box-shadow: 1px 1px 6px 3px #00000024;
     }
     .slick-slide:nth-child(n+2):nth-child(-n+4) .linhaHover {
-        margin-left: -150px;
+        margin-left: -76px;
     }
     .missao_visao_items .slick-slide{
         margin-left: 7px;
@@ -564,7 +564,10 @@
     .slider_fotos .slick-slide img{
         width: 100%;
     }    
-
+    .css_quem .linha{
+        width: 88%;
+        margin: 0 auto;
+    }
     .linha .slick-next:before, .linha .slick-prev:before {
         font-family: slick;
         width: 18px;
@@ -609,8 +612,15 @@
         background: #FFFF;
         color: #231f20;
         position: sticky;
+        position: -webkit-sticky;
         z-index: 9999;
         width: 100%;
         top: 0;
+    }
+    .search-box{
+        width: 304px;
     }    
+    .search-box input[type="text"]{
+            width: 180px;
+    }
 }

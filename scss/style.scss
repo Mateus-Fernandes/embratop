@@ -101,12 +101,17 @@ header.topo{
     .lupa_search{
         width: 34px;
         height: 32px;
-        background: url(../images/sprite.png);
-        background-position: -33px -1px;
-        display: block;
+        background: #231f20;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         margin-right: 15px;
         cursor: pointer;
+        border-radius: 50%;
+        svg{
+            width: 14px;
+        }
     }
     .carrinho_top{
         width: 28px;
@@ -770,12 +775,21 @@ header.topo{
 }
 
 .icon_social_box{
-    background: url(../images/sprite.png);
+    background: #231f20;
     margin-right: 15px;
-    display: block;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    i{
+        font-size: 19px;
+        color: #FFF;
+        
+    }
 }
 .facebook_icon{
-    background-position: 1px -37px;
+    //background-position: 1px -37px;
     width: 46px;
     height: 46px;
 }
@@ -908,20 +922,31 @@ footer{
     font-size: 18px;
     color: #231f20;
     .redLogo{
-        background: url(../images/sprite.png);
-        background-position: -50px -173px;
+        //background: url(../images/sprite.png);
+        //background-position: -50px -173px;
         height: 20px;
         width: 41px;
         margin-left: 16px;
         position: relative;
-        top: -2px;
+        top: -5px;
+        img{
+            max-width: 100%;
+        }
     }
     .icon_social_box{
-        background: url(../images/sprite.png);
-        display: block;
+        background: #231f20;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-weight: 500;
+        i{
+            font-size: 19px;
+            color: #FFF;
+        }
     }
     .linkedin_ico{
-        background-position: -55px -140px;
+        //background-position: -55px -140px;
         width: 33px;
         height: 31px;
     }    

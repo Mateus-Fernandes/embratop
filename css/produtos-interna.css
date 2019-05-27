@@ -18,13 +18,17 @@
 
 .cada_ico_produto:last-child { margin-right: 0; }
 
-.facebook_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -504px -36px; }
+.share_icoo { background: #000; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-weight: 500; }
 
-.youtube_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -571px -36px; }
+.share_icoo i { font-size: 14px; color: #FFF; }
 
-.whats_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -537px -36px; }
+.facebook_ico_produto { width: 27px; height: 25px; }
 
-.google_ico_produto { background: url(../images/sprite.png); width: 27px; height: 25px; background-position: -605px -36px; }
+.youtube_ico_produto { width: 27px; height: 25px; }
+
+.whats_ico_produto { width: 27px; height: 25px; }
+
+.google_ico_produto { width: 27px; height: 25px; }
 
 .produto_descricao_page p { font-size: 14px; line-height: 24px; color: #231f20; }
 

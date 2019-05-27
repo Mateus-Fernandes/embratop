@@ -318,7 +318,7 @@ $(".btn_hamburg").click(function () {
   $(".navigation2").toggleClass("open_menu");
 });
 
-$('a[href^="#"]').on('click', function (event) {
+$('header a[href^="#"]').on('click', function (event) {
   var target = $(this.getAttribute('href'));
 
   $('li.nav-item a').removeClass('active');

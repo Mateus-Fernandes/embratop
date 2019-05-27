@@ -36,7 +36,9 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .links_top .btn_cadastro { margin-right: 19px; }
 
-.links_top .lupa_search { width: 34px; height: 32px; background: url(../images/sprite.png); background-position: -33px -1px; display: block; position: relative; margin-right: 15px; cursor: pointer; }
+.links_top .lupa_search { width: 34px; height: 32px; background: #231f20; display: flex; align-items: center; justify-content: center; position: relative; margin-right: 15px; cursor: pointer; border-radius: 50%; }
+
+.links_top .lupa_search svg { width: 14px; }
 
 .links_top .carrinho_top { width: 28px; height: 27px; display: block; }
 
@@ -264,9 +266,11 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .redes_sociais_sec { padding-top: 48px; padding-bottom: 55px; }
 
-.icon_social_box { background: url(../images/sprite.png); margin-right: 15px; display: block; }
+.icon_social_box { background: #231f20; margin-right: 15px; display: flex; border-radius: 50%; align-items: center; justify-content: center; font-weight: 500; }
 
-.facebook_icon { background-position: 1px -37px; width: 46px; height: 46px; }
+.icon_social_box i { font-size: 19px; color: #FFF; }
+
+.facebook_icon { width: 46px; height: 46px; }
 
 .instagram_icon { background-position: -46px -37px; width: 49px; height: 46px; }
 
@@ -318,11 +322,15 @@ footer a { color: #FFF; text-decoration: none; }
 
 .sect3_footer { background: #FFF; padding-top: 12px; padding-bottom: 11px; font-size: 18px; color: #231f20; }
 
-.sect3_footer .redLogo { background: url(../images/sprite.png); background-position: -50px -173px; height: 20px; width: 41px; margin-left: 16px; position: relative; top: -2px; }
+.sect3_footer .redLogo { height: 20px; width: 41px; margin-left: 16px; position: relative; top: -5px; }
 
-.sect3_footer .icon_social_box { background: url(../images/sprite.png); display: block; }
+.sect3_footer .redLogo img { max-width: 100%; }
 
-.sect3_footer .linkedin_ico { background-position: -55px -140px; width: 33px; height: 31px; }
+.sect3_footer .icon_social_box { background: #231f20; border-radius: 50%; align-items: center; justify-content: center; display: flex; font-weight: 500; }
+
+.sect3_footer .icon_social_box i { font-size: 19px; color: #FFF; }
+
+.sect3_footer .linkedin_ico { width: 33px; height: 31px; }
 
 .slick-list.draggable { padding-top: 15px; padding-bottom: 15px; }
 
