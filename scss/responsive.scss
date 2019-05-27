@@ -605,4 +605,12 @@
         background-size: inherit;
         background-position: 646px;
     }
+    header.topo {
+        background: #FFFF;
+        color: #231f20;
+        position: sticky;
+        z-index: 9999;
+        width: 100%;
+        top: 0;
+    }    
 }

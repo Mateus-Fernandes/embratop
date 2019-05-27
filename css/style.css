@@ -38,7 +38,7 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .links_top .lupa_search { width: 34px; height: 32px; background: url(../images/sprite.png); background-position: -33px -1px; display: block; position: relative; margin-right: 15px; cursor: pointer; }
 
-.links_top .carrinho_top { width: 28px; height: 27px; background: url(../images/sprite.png); background-position: -68px -3px; display: block; }
+.links_top .carrinho_top { width: 28px; height: 27px; display: block; }
 
 #navbarNav li a { font-size: 16px; font-weight: 900; color: #231f20; padding: 6px 16px; border-radius: 20px; overflow: hidden; }
 
