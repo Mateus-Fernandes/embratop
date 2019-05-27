@@ -151,3 +151,6 @@
 
 @supports (-webkit-overflow-scrolling: touch) { /* CSS specific to iOS devices */
   .css_quem .linhaHover { width: 168px; margin-top: -400px; top: 100%; margin-left: -55px; z-index: 20; display: none; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) { /* STYLES GO HERE */
+  .css_quem .linhaHover { width: 168px; margin-top: -400px; top: 100%; margin-left: -55px; z-index: 20; display: none; } }
