@@ -12,7 +12,7 @@ a { text-decoration: none; transition: .3s; }
 
 a:hover { text-decoration: none; color: #ef7b0b; }
 
-header.topo { background: #FFFF; color: #231f20; }
+header.topo { background: #FFFF; color: #231f20; transition: all .3s; }
 
 .linha_ciza { background: url(../images/linha_ciza.png) center; position: absolute; top: 0; right: 0; width: 100%; height: 58px; z-index: 1; }
 
@@ -126,7 +126,7 @@ header.topo { background: #FFFF; color: #231f20; }
 
 .e_desenvolvimento { background-position: -279px 0px; width: 61px; height: 75px; }
 
-.nossos_produtos { padding-top: 44px; padding-bottom: 77px; background: url(../images/bg_produtossec.png) #f8f7f7 center top; background-blend-mode: multiply; }
+.nossos_produtos { padding-top: 44px; padding-bottom: 77px; background: url(../images/bg_produtossec.png) #f8f7f7 center top; background-blend-mode: multiply; background-size: cover; }
 
 .produto_items .slick-slide { margin-right: 0; margin-left: 0; }
 

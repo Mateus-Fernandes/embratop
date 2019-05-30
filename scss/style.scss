@@ -39,6 +39,7 @@ a{
 header.topo{
     background: #FFFF;
     color: $preto;
+    transition: all .3s;
 }
 .linha_ciza{
     background:url(../images/linha_ciza.png) center;
@@ -392,6 +393,7 @@ header.topo{
     padding-bottom: 77px;
     background: url(../images/bg_produtossec.png) #f8f7f7 center top;
     background-blend-mode: multiply;
+    background-size: cover;
 }
 .produto_items{
     .slick-slide {
@@ -1877,3 +1879,5 @@ a.proxima_etapa{
     font-size: 24px;
     padding: 11px 50px;
 }
+
+

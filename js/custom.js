@@ -373,3 +373,32 @@ $(document).ready(function () {
 
 });
 
+
+//script to create sticky header 
+jQuery(function(){
+  createSticky(jQuery("header"));
+});
+
+function createSticky(sticky) {
+  if (typeof sticky != "undefined") {
+
+      var pos = sticky.offset().top ,
+          win = jQuery(window);
+
+      win.on("scroll", function() {
+
+          if( win.scrollTop() > pos ) {
+              sticky.addClass("stickyhead");
+          } else {
+              sticky.removeClass("stickyhead");
+          }           
+      });         
+  }
+}
+
+document.addEventListener('touchmove', function(event) {
+  event = event.originalEvent || event;
+  if (event.scale !== 1) {
+     event.preventDefault();
+  }
+}, false);
