@@ -155,9 +155,10 @@
   .linha .slick-next:before, .linha .slick-prev:before { font-family: slick; width: 18px; content: ''; font-size: 20px; line-height: 1; opacity: 1; color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 28px; background: url(../images/sprite.png); display: block; top: 0px; position: relative; }
   a.suporte_btn { font-size: 16px; height: auto; }
   .interna_produtos_bread { background-size: inherit; background-position: 646px; }
-  header.topo { background: #FFFF; color: #231f20; position: sticky; position: -webkit-sticky; z-index: 9999; width: 100%; top: 0; }
+  header.topo { background: #FFFF; color: #231f20; position: sticky; position: -webkit-sticky; z-index: 1000; width: 100%; top: 0; }
   .search-box { width: 304px; }
-  .search-box input[type="text"] { width: 180px; } }
+  .search-box input[type="text"] { width: 180px; }
+  .carousel-bullets ul { position: absolute; width: 100%; padding: 0; margin: 0; list-style: none; text-align: left; display: flex; align-items: center; justify-content: center; bottom: 40px; z-index: 20; } }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) { /* STYLES GO HERE */
   .css_quem .linhaHover { width: 168px; margin-top: 0; top: 100%; margin-left: -55px; z-index: 20; display: none; } }

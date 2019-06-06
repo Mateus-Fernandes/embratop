@@ -402,3 +402,10 @@ document.addEventListener('touchmove', function(event) {
      event.preventDefault();
   }
 }, false);
+
+$(function() {                      
+  $(".carousel-bullets li").click(function() {  
+    $('.carousel-bullets li').removeClass("active");      
+    $(this).addClass("active");      
+  });
+});

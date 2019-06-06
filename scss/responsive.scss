@@ -647,7 +647,7 @@
         color: #231f20;
         position: sticky;
         position: -webkit-sticky;
-        z-index: 9999;
+        z-index: 1000;
         width: 100%;
         top: 0;
     }
@@ -657,6 +657,19 @@
     .search-box input[type="text"]{
             width: 180px;
     }
+    .carousel-bullets ul {
+        position: absolute;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 40px;
+        z-index: 20;
+    }    
 }
 
 

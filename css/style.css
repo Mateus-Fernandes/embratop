@@ -609,3 +609,10 @@ nav.fill ul li a:hover:before { z-index: -10; animation: fill 1s forwards; -webk
 .button_play.video-btn { display: block; position: absolute; background: url(../images/sprite.png); top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; width: 67px; height: 68px; background-position: -503px -107px; border: none; cursor: pointer; }
 
 a.proxima_etapa { font-size: 24px; padding: 11px 50px; }
+
+/* Carosel bolinhas */
+.carousel-bullets ul { position: absolute; width: 100%; padding: 0; margin: 0; list-style: none; text-align: left; display: flex; align-items: center; justify-content: center; bottom: 90px; z-index: 20; }
+
+.carousel-bullets ul li { background-image: url(../images/sprite.png); background-repeat: no-repeat; background-position: -609px -118px; width: 7px; height: 7px; position: relative; display: inline-block; margin: 0 5px; padding: 0; cursor: pointer; }
+
+.carousel-bullets ul .active { width: 19px; height: 20px; background-image: url(../images/sprite.png); background-repeat: no-repeat; background-position: -584px -112px; }

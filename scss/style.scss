@@ -1881,3 +1881,38 @@ a.proxima_etapa{
 }
 
 
+/* Carosel bolinhas */
+.carousel-bullets{
+    ul {
+        position: absolute;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 90px;
+        z-index: 20;
+        li {
+            background-image: url(../images/sprite.png);
+            background-repeat: no-repeat;
+            background-position: -609px -118px;
+            width: 7px;
+            height: 7px;
+            position: relative;
+            display: inline-block;
+            margin: 0 5px;
+            padding: 0;
+            cursor: pointer;
+        }
+        .active {
+            width: 19px;
+            height: 20px;
+            background-image: url(../images/sprite.png);
+            background-repeat: no-repeat;
+            background-position: -584px -112px;
+        }
+    }
+}
